@@ -1,0 +1,131 @@
+.link{
+	font-weight: 700;
+	padding: 21px;
+	display: inline-block;
+}
+.logo{
+	float: right; /**Hacemos que el tipo logo se posicione al lado derecho*/
+}
+header{
+	position: fixed;
+	background: white;
+	width: 100%;
+	top: 0;
+
+}
+.menu{
+	padding: 14px 70px;
+	overflow: auto;
+}
+#home{
+	background-image: url(../img/bg-home.jpg); /**Muestr la imagen de porta*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 554px;
+	text-align: center;
+	margin-top: 80px;
+}
+#home .container{
+	color: white;
+	padding: 70px;
+}
+.text-home{
+	font-size: 53px;
+}
+.btn-home{
+	background: #2ECC71;
+	color: #fff;
+	padding: 11px 20px;
+	border-radius: 1px;
+	font-weight: 1px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 63px;
+	display: inline-block;
+	font-size: 14px;
+}
+#services{
+	background-color: #F17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px 7px;
+}
+#work{
+	background-color: #fff;
+	text-align: center;
+	color: black;
+	padding: 70px 7px;
+}
+.box-services{
+	display: inline-block;
+	width: 30%;
+	margin-top: 63px;
+}
+.text-services{
+	font-size: 53px;
+	letter-spacing: 2px;	
+}
+#work{
+	width: 100%;
+	text-align: center;
+}
+/*#box-work {
+	width: 100%;
+	text-align: center;
+}*/
+#box-work .img {
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+}
+/*Aqui empieza lo del model*/
+
+#popup {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -300px;
+}
+ 
+#popup:target {
+   visibility:visible;
+   opacity: 1;
+   background-color: rgba(0,0,0,0.8);
+   position: fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   margin:0;
+   z-index: 999;
+   -webkit-transition:all 1s;
+   -moz-transition:all 1s;
+   transition:all 1s;
+}
+.popup-contenedor {
+   position: relative;
+   margin:7% auto;
+   padding:30px 50px;
+   background-color: #fafafa;
+   color:#333;
+   border-radius: 3px;
+   width:50%;
+}
+a.popup-cerrar {
+   position: absolute;
+   top:3px;
+   right:3px;
+   background-color: #333;
+   padding:7px 10px;
+   font-size: 20px;
+   text-decoration: none;
+   line-height: 1;
+   color:#fff;
+}
+footer{
+	text-align: center;
+	height: 70px;
+	background: #373B47;
+	color: white;
+	padding-top: 7px;
+}
